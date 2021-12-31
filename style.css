@@ -1,3 +1,7 @@
+/*#################################*/
+/*##########   GENERAL  ###########*/
+/*#################################*/
+
 body {
     margin: 0;
     padding: 0;
@@ -11,6 +15,13 @@ body {
     border:2px solid red ;
 }
 
+/*#################################*/
+/*########### HEADER ##############*/
+/*#################################*/
+
+
+
+
 a,
 button {
     transition: all .3s ease-in-out;
@@ -22,14 +33,14 @@ a:hover {
     cursor: pointer;
 }
 
-#page-loading-blocs-notifaction {
+/*#page-loading-blocs-notifaction {         IMAGE & CLASS INEXISTANTE dans le html doc img 
     position: fixed;
     top: 0;
     bottom: 0;
     width: 100%;
     z-index: 100000;
     background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
-}
+}*/   
 
 .bloc {
     width: 100%;
@@ -111,7 +122,7 @@ a:hover {
     color: rgba(255, 255, 255, .9);
 }
 
-.d-bloc .icon-round,
+.d-bloc .icon-round,  /*  n'existe pas dans le html */
 .d-bloc .icon-square,
 .d-bloc .icon-rounded,
 .d-bloc .icon-semi-rounded-a,
@@ -119,11 +130,11 @@ a:hover {
     border-color: rgba(255, 255, 255, .9);
 }
 
-.d-bloc .divider-h span {
+.d-bloc .divider-h span {  /*  n'existe pas dans le html */
     border-color: rgba(255, 255, 255, .2);
 }
 
-.d-bloc .a-btn,
+.d-bloc .a-btn,  /*  n'existe pas dans le html */
 .d-bloc .navbar a,
 .d-bloc .navbar-brand,
 .d-bloc a .icon-sm,
@@ -140,7 +151,7 @@ a:hover {
     color: rgba(255, 255, 255, .6);
 }
 
-.d-bloc .a-btn:hover,
+.d-bloc .a-btn:hover,  /*  n'existe pas dans le html */
 .d-bloc .navbar a:hover,
 .d-bloc .navbar-brand:hover,
 .d-bloc a:hover .icon-sm,
@@ -157,57 +168,57 @@ a:hover {
     color: rgba(255, 255, 255, 1);
 }
 
-.d-bloc .navbar-toggle .icon-bar {
+.d-bloc .navbar-toggle .icon-bar {  /*  inclusion n'existe pas dans le html */
     background: rgba(255, 255, 255, 1);
 }
 
-.d-bloc .btn-wire,
+.d-bloc .btn-wire,         /*  n'existe pas dans le html */
 .d-bloc .btn-wire:hover {
     color: rgba(255, 255, 255, 1);
     border-color: rgba(255, 255, 255, 1);
 }
 
-.d-bloc .panel {
+.d-bloc .panel {  /*  n'existe pas dans le html */
     color: rgba(0, 0, 0, .5);
 }
 
-.d-bloc .panel button:hover {
+.d-bloc .panel button:hover {  /*  n'existe pas dans le html */
     color: rgba(0, 0, 0, .7);
 }
 
-.d-bloc .panel icon {
+.d-bloc .panel icon {  /*  n'existe pas dans le html */
     border-color: rgba(0, 0, 0, .7);
 }
 
-.d-bloc .panel .divider-h span {
+.d-bloc .panel .divider-h span {  /*  n'existe pas dans le html */
     border-color: rgba(0, 0, 0, .1);
 }
 
-.d-bloc .panel .a-btn {
+.d-bloc .panel .a-btn {  /*  n'existe pas dans le html */
     color: rgba(0, 0, 0, .6);
 }
 
-.d-bloc .panel .a-btn:hover {
+.d-bloc .panel .a-btn:hover {  /*  n'existe pas dans le html */
     color: rgba(0, 0, 0, 1);
 }
 
-.d-bloc .panel .btn-wire,
+.d-bloc .panel .btn-wire,  /*  n'existe pas dans le html */
 .d-bloc .panel .btn-wire:hover {
     color: rgba(0, 0, 0, .7);
     border-color: rgba(0, 0, 0, .3);
 }
 
-.d-bloc .panel,
+.d-bloc .panel,    /* panel  n'existe pas dans le html */
 .l-bloc {
     color: rgba(0, 0, 0, .5);
 }
 
-.d-bloc .panel button:hover,
-.l-bloc button:hover {
+.d-bloc .panel button:hover, /*  n'existe pas dans le html */
+.l-bloc button:hover {      /* pas de button dans le l-bloc n'existe pas dans le html */
     color: rgba(0, 0, 0, .7);
 }
 
-.l-bloc .icon-round,
+.l-bloc .icon-round,  /*  aucune de c'est classe  n'existe pas dans le html */
 .l-bloc .icon-square,
 .l-bloc .icon-rounded,
 .l-bloc .icon-semi-rounded-a,
@@ -215,12 +226,12 @@ a:hover {
     border-color: rgba(0, 0, 0, .7);
 }
 
-.d-bloc .panel .divider-h span,
+.d-bloc .panel .divider-h span, /*  aucune classe n'existe pas dans le html */
 .l-bloc .divider-h span {
     border-color: rgba(0, 0, 0, .1);
 }
 
-.d-bloc .panel .a-btn,
+.d-bloc .panel .a-btn,  /*  aucune classe ou inclusion n'existe pas dans le html */
 .l-bloc .a-btn,
 .l-bloc .navbar a,
 .l-bloc .navbar-brand,
@@ -239,7 +250,7 @@ a:hover {
 }
 
 .d-bloc .panel .a-btn:hover,
-.l-bloc .a-btn:hover,
+.l-bloc .a-btn:hover, /*  aucune classe ou inclusion  n'existe pas dans le html */
 .l-bloc .navbar a:hover,
 .l-bloc .navbar-brand:hover,
 .l-bloc a:hover .icon-sm,
@@ -256,11 +267,11 @@ a:hover {
     color: rgba(0, 0, 0, 1);
 }
 
-.l-bloc .navbar-toggle .icon-bar {
+.l-bloc .navbar-toggle .icon-bar { /*  vrai mais utile ? */
     color: rgba(0, 0, 0, .6);
 }
 
-.d-bloc .panel .btn-wire,
+.d-bloc .panel .btn-wire,  /*  n'existe pas dans le html */
 .d-bloc .panel .btn-wire:hover,
 .l-bloc .btn-wire,
 .l-bloc .btn-wire:hover {
@@ -374,55 +385,55 @@ a:hover {
         transform: translate(0, -50%);
         -webkit-transform: translateY(-50%);
     }
-    .nav > li .dropdown-menu a,
+    .nav > li .dropdown-menu a,  /*  n'existe pas dans le html */
     .nav > li .dropdown-menu a:hover {
         color: #484848;
     }
-    .nav-invert .site-navigation {
+    .nav-invert .site-navigation { /*  n'existe pas dans le html */
         left: 0;
         right: 0;
     }
-    .nav-center {
+    .nav-center {  /*  n'existe pas dans le html */
         text-align: center;
     }
-    .nav-center .navbar-header {
+    .nav-center .navbar-header {    /*  n'existe pas dans le html */
         width: 100%;
     }
-    .nav-center .navbar-header,
+    .nav-center .navbar-header,  /*  n'existe pas dans le html */
     .nav-center .navbar-brand,
     .nav-center .nav > li {
         float: none;
         display: inline-block;
     }
-    .nav-center .site-navigation {
+    .nav-center .site-navigation { /*  n'existe pas dans le html */
         position: relative;
         width: 100%;
         right: 0;
         margin-right: 0px;
         margin-top: 20px;
     }
-    .nav-center.mini-nav .navbar-toggle {
+    .nav-center.mini-nav .navbar-toggle { /*  n'existe pas dans le html */
         float: none;
         margin: 10px auto 0;
     }
 }
 
-.nav > li > .dropdown a {
+.nav > li > .dropdown a {  /*  n'existe pas dans le html */
     background: none!important;
     display: block;
     padding: 14px 15px;
 }
 
-nav .caret {
+nav .caret {  /*  n'existe pas dans le html */
     margin: 0 5px;
 }
 
-.dropdown-menu .dropdown-menu {
+.dropdown-menu .dropdown-menu { /*  n'existe pas dans le html */
     top: -8px;
     left: 100%;
 }
 
-.dropdown-menu .dropmenu-flow-right {
+.dropdown-menu .dropmenu-flow-right { /*  n'existe pas dans le html */
     top: 100%;
     left: 0;
     margin-left: -1px;
@@ -430,7 +441,7 @@ nav .caret {
     border-top-right-radius: 0;
 }
 
-.dropdown-menu .dropdown span {
+.dropdown-menu .dropdown span {  /*  n'existe pas dans le html */
     border: 4px solid black;
     border-top-color: transparent;
     border-right-color: transparent;
@@ -487,29 +498,29 @@ button {
     font-size: 60px!important;
 }
 
-.sm-shadow {
+.sm-shadow {  /*  n'existe pas dans le html  MAIS  PEU ETRE UTILE */
     text-shadow: 0 1px 2px rgba(0, 0, 0, .3);
 }
 
-.panel-sq,
+.panel-sq,     /*  n'existe pas dans le html */
 .panel-sq .panel-heading,
 .panel-sq .panel-footer {
     border-radius: 0;
 }
 
-.panel-rd {
+.panel-rd {   /*  n'existe pas dans le html */
     border-radius: 30px;
 }
 
-.panel-rd .panel-heading {
+.panel-rd .panel-heading {  /*  n'existe pas dans le html */
     border-radius: 29px 29px 0 0;
 }
 
-.panel-rd .panel-footer {
+.panel-rd .panel-footer {  /*  n'existe pas dans le html */
     border-radius: 0 0 29px 29px;
 }
 
-.form-control {
+.form-control {    /*  n'existe pas dans le html */
     border-color: rgba(0, 0, 0, .1);
     box-shadow: none;
 }
@@ -529,7 +540,7 @@ button {
     margin-top: 6px;
 }
 
-.showScrollTop {
+.showScrollTop {    /*  n'existe pas dans le html */
     font-size: 14px;
     opacity: 1;
 }
@@ -564,23 +575,23 @@ a[data-lightbox]:hover img {
     animation-fill-mode: none;
 }
 
-#lightbox-modal {
+#lightbox-modal {   /*  n'existe pas dans le html */
     display: flex;
     align-items: center;
 }
 
-#lightbox-modal .modal-dialog {
+#lightbox-modal .modal-dialog { /*  n'existe pas dans le html */
     width: 90%;
     max-width: 900px;
     margin: 0 auto 0;
 }
 
-#lightbox-modal .modal-dialog img {
+#lightbox-modal .modal-dialog img { /*  n'existe pas dans le html */
     max-height: 90vh;
     margin: 0 auto;
 }
 
-.lightbox-caption {
+.lightbox-caption {  /*  n'existe pas dans le html */
     padding: 20px;
     color: #FFF;
     background: rgba(0, 0, 0, .5);
@@ -590,7 +601,7 @@ a[data-lightbox]:hover img {
     bottom: 5px;
 }
 
-.close-lightbox {
+.close-lightbox {  /*  n'existe pas dans le html */
     color: #FFF;
     font-size: 30px;
     position: absolute;
@@ -604,14 +615,14 @@ a[data-lightbox]:hover img {
     opacity: 0.3;
 }
 
-.close-lightbox:hover,
+.close-lightbox:hover,  /*  n'existe pas dans le html */
 .next-lightbox:hover,
 .prev-lightbox:hover {
     opacity: 1.0;
     color: #FFF;
 }
 
-.next-lightbox,
+.next-lightbox,   /*  n'existe pas dans le html */
 .prev-lightbox {
     font-size: 20px;
     color: rgba(255, 255, 255, .9);
@@ -623,12 +634,12 @@ a[data-lightbox]:hover img {
     opacity: 0.4;
 }
 
-.next-lightbox {
+.next-lightbox {  /*  n'existe pas dans le html */
     padding: 6px 8px 1px 13px;
     right: 25px;
 }
 
-.prev-lightbox {
+.prev-lightbox {   /*  n'existe pas dans le html */
     padding: 6px 13px 1px 10px;
     left: 25px;
 }
@@ -670,7 +681,7 @@ a {
     font-size: 36px;
 }
 
-.statement-bloc-text {
+.statement-bloc-text {  /*  n'existe pas dans le html MAIS A UTILISE*/ 
     line-height: 26px;
     font-style: italic;
     font-size: 20px;
@@ -720,7 +731,7 @@ h3 {
     color: #333333!important;
 }
 
-.med-width-whitespace {
+.med-width-whitespace {  /*  n'existe pas dans le html  MAIS */
     max-width: 800px;
     margin: auto auto auto auto;
     box-shadow: 0px 0px 0px #000000;
@@ -792,23 +803,23 @@ h4 {
     color: #FFFFFF!important;
 }
 
-.ltc-white {
+.ltc-white {     /*  n'existe pas dans le html */
     color: #FFFFFF!important;
 }
 
-.ltc-white:hover {
+.ltc-white:hover {  /*  n'existe pas dans le html */
     color: #cccccc!important;
 }
 
-.ltc-atomic-tangerine {
+.ltc-atomic-tangerine {  /*  n'existe pas dans le html */
     color: #F3976C!important;
 }
 
-.ltc-atomic-tangerine:hover {
+.ltc-atomic-tangerine:hover { /*  n'existe pas dans le html */
     color: #c27956!important;
 }
 
-.icon-dark-slate-blue {
+.icon-dark-slate-blue {   
     color: #364577!important;
     border-color: #364577!important;
 }
@@ -834,7 +845,7 @@ h4 {
         padding-left: 20px;
         padding-right: 20px;
     }
-    .bloc.full-width-bloc,
+    .bloc.full-width-bloc,   /*  n'existe pas dans le html */
     .bloc-tile-2.full-width-bloc .container,
     .bloc-tile-3.full-width-bloc .container,
     .bloc-tile-4.full-width-bloc .container {
@@ -844,10 +855,10 @@ h4 {
 }
 
 @media (max-width: 992px) and (min-width: 768px) {
-    .navbar .nav {
+    .navbar .nav {   /*  SUR LA MEME LIGNE MARCHE ? */
         max-width: 80%
     }
-    .nav-center.navbar .nav {
+    .nav-center.navbar .nav {  /*  n'existe pas dans le html */
         max-width: 100%
     }
 }
@@ -880,12 +891,12 @@ h4 {
         padding-left: constant(safe-area-inset-left);
         padding-right: constant(safe-area-inset-right);
     }
-    .bloc-group,
+    .bloc-group,  /*  n'existe pas dans le html */
     .bloc-group .bloc {
         display: block;
         width: 100%;
     }
-    .bloc-fill-screen .fill-bloc-top-edge,
+    .bloc-fill-screen .fill-bloc-top-edge,  /*  n'existe pas dans le html */
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
         padding-left: constant(safe-area-inset-left);
@@ -912,12 +923,12 @@ h4 {
     .b-parallax {
         background-attachment: scroll;
     }
-    .navbar .nav {
+    .navbar .nav {  /*  SUR LA MEME LIGNE MARCHE ? */
         padding-top: 0;
         border-top: 1px solid rgba(0, 0, 0, .2);
         float: none!important;
     }
-    .navbar.row {
+    .navbar.row { /*  SUR LA MEME LIGNE MARCHE ? */
         margin-left: 0;
         margin-right: 0;
     }
@@ -938,7 +949,7 @@ h4 {
     .nav > li:hover {
         background: rgba(0, 0, 0, .08);
     }
-    .dropdown .dropdown a .caret {
+    .dropdown .dropdown a .caret {  /*  n'existe pas dans le html */
         float: none;
         margin: 5px 0 0 10px!important;
         border: 4px solid black;
@@ -946,10 +957,10 @@ h4 {
         border-right-color: transparent;
         border-left-color: transparent;
     }
-    #hero-bloc .navbar .nav {
+    #hero-bloc .navbar .nav {  /*  SUR LA MEME LIGNE MARCHE ? */
         background: rgba(0, 0, 0, .8);
     }
-    #hero-bloc .navbar .nav a {
+    #hero-bloc .navbar .nav a {  /*  SUR LA MEME LIGNE MARCHE ? */
         color: rgba(255, 255, 255, .6);
     }
     .hero {
@@ -969,11 +980,11 @@ h4 {
         max-height: 40px;
         width: auto;
     }
-    .nav-invert .navbar-header {
+    .nav-invert .navbar-header {   /*  n'existe pas dans le html */
         float: none;
         width: 100%;
     }
-    .nav-invert .navbar-toggle {
+    .nav-invert .navbar-toggle { /*  n'existe pas dans le html */
         float: left;
         margin-left: 10px;
     }
@@ -981,7 +992,7 @@ h4 {
         padding-left: 0;
         padding-right: 0;
     }
-    .bloc-xxl,
+    .bloc-xxl,  /* xxl et xl nexiste pas mai lg oui*/
     .bloc-xl,
     .bloc-lg {
         padding: 40px 0;
@@ -991,7 +1002,7 @@ h4 {
         padding-left: 0;
         padding-right: 0;
     }
-    .bloc-tile-2 .container,
+    .bloc-tile-2 .container,  /*  n'existe pas dans le html */
     .bloc-tile-3 .container,
     .bloc-tile-4 .container,
     .bloc-fill-screen .fill-bloc-top-edge,
@@ -999,13 +1010,13 @@ h4 {
         padding-left: 0;
         padding-right: 0;
     }
-    .a-block {
+    .a-block {  /*  n'existe pas dans le html */
         padding: 0 10px;
     }
-    .btn-dwn {
+    .btn-dwn {  /*  n'existe pas dans le html */
         display: none;
     }
-    .voffset {
+    .voffset {  
         margin-top: 5px;
     }
     .voffset-md {
@@ -1017,16 +1028,16 @@ h4 {
     form {
         padding: 5px;
     }
-    .close-lightbox {
+    .close-lightbox {  /*  n'existe pas dans le html */
         display: inline-block;
     }
-    .blocsapp-device-iphone5 {
+    .blocsapp-device-iphone5 {  /*  n'existe pas dans le html */
         background-size: 216px 425px;
         padding-top: 60px;
         width: 216px;
         height: 425px;
     }
-    .blocsapp-device-iphone5 img {
+    .blocsapp-device-iphone5 img {/*  n'existe pas dans le html */
         width: 180px;
         height: 320px;
     }
@@ -1039,7 +1050,7 @@ h4 {
     }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 767px) {  /*  n'existe pas dans le html */
     .bloc-mob-center-text {
         text-align: center;
     }

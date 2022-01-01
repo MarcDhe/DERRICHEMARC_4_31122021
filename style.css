@@ -122,23 +122,23 @@ a:hover {
     color: rgba(255, 255, 255, .9);
 }
 
-.d-bloc .icon-round,  /*  n'existe pas dans le html */
+/* .d-bloc .icon-round,   n'existe pas dans le html
 .d-bloc .icon-square,
 .d-bloc .icon-rounded,
 .d-bloc .icon-semi-rounded-a,
 .d-bloc .icon-semi-rounded-b {
     border-color: rgba(255, 255, 255, .9);
-}
+} */
 
-.d-bloc .divider-h span {  /*  n'existe pas dans le html */
+/* .d-bloc .divider-h span {   n'existe pas dans le html
     border-color: rgba(255, 255, 255, .2);
-}
+} */
 
-.d-bloc .a-btn,  /*  n'existe pas dans le html */
+.d-bloc .a-btn,       /* beaucoup de chose mais une seul utile*/
 .d-bloc .navbar a,
 .d-bloc .navbar-brand,
 .d-bloc a .icon-sm,
-.d-bloc a .icon-md,
+.d-bloc a .icon-md,   /*utile*/
 .d-bloc a .icon-lg,
 .d-bloc a .icon-xl,
 .d-bloc h1 a,
@@ -151,11 +151,11 @@ a:hover {
     color: rgba(255, 255, 255, .6);
 }
 
-.d-bloc .a-btn:hover,  /*  n'existe pas dans le html */
+.d-bloc .a-btn:hover,   /* beaucoup de chose mais une seul utile*/
 .d-bloc .navbar a:hover,
 .d-bloc .navbar-brand:hover,
 .d-bloc a:hover .icon-sm,
-.d-bloc a:hover .icon-md,
+.d-bloc a:hover .icon-md, /*utile*/
 .d-bloc a:hover .icon-lg,
 .d-bloc a:hover .icon-xl,
 .d-bloc h1 a:hover,
@@ -166,59 +166,59 @@ a:hover {
 .d-bloc h6 a:hover,
 .d-bloc p a:hover {
     color: rgba(255, 255, 255, 1);
-}
+} 
 
-.d-bloc .navbar-toggle .icon-bar {  /*  inclusion n'existe pas dans le html */
+/* .d-bloc .navbar-toggle .icon-bar {   inclusion n'existe pas dans le html
     background: rgba(255, 255, 255, 1);
-}
+} */
 
-.d-bloc .btn-wire,         /*  n'existe pas dans le html */
+/* .d-bloc .btn-wire,          n'existe pas dans le html
 .d-bloc .btn-wire:hover {
     color: rgba(255, 255, 255, 1);
     border-color: rgba(255, 255, 255, 1);
 }
 
-.d-bloc .panel {  /*  n'existe pas dans le html */
+.d-bloc .panel {   n'existe pas dans le html
     color: rgba(0, 0, 0, .5);
 }
 
-.d-bloc .panel button:hover {  /*  n'existe pas dans le html */
+.d-bloc .panel button:hover {   n'existe pas dans le html
     color: rgba(0, 0, 0, .7);
 }
 
-.d-bloc .panel icon {  /*  n'existe pas dans le html */
+.d-bloc .panel icon {   n'existe pas dans le html
     border-color: rgba(0, 0, 0, .7);
 }
 
-.d-bloc .panel .divider-h span {  /*  n'existe pas dans le html */
+.d-bloc .panel .divider-h span {   n'existe pas dans le html
     border-color: rgba(0, 0, 0, .1);
 }
 
-.d-bloc .panel .a-btn {  /*  n'existe pas dans le html */
+.d-bloc .panel .a-btn {   n'existe pas dans le html
     color: rgba(0, 0, 0, .6);
 }
 
-.d-bloc .panel .a-btn:hover {  /*  n'existe pas dans le html */
+.d-bloc .panel .a-btn:hover {   n'existe pas dans le html
     color: rgba(0, 0, 0, 1);
 }
 
-.d-bloc .panel .btn-wire,  /*  n'existe pas dans le html */
+.d-bloc .panel .btn-wire,   n'existe pas dans le html
 .d-bloc .panel .btn-wire:hover {
     color: rgba(0, 0, 0, .7);
     border-color: rgba(0, 0, 0, .3);
 }
 
-.d-bloc .panel,    /* panel  n'existe pas dans le html */
+.d-bloc .panel,    panel  n'existe pas dans le html
 .l-bloc {
     color: rgba(0, 0, 0, .5);
 }
 
-.d-bloc .panel button:hover, /*  n'existe pas dans le html */
-.l-bloc button:hover {      /* pas de button dans le l-bloc n'existe pas dans le html */
+.d-bloc .panel button:hover,  n'existe pas dans le html
+.l-bloc button:hover {      pas de button dans le l-bloc n'existe pas dans le html
     color: rgba(0, 0, 0, .7);
 }
 
-.l-bloc .icon-round,  /*  aucune de c'est classe  n'existe pas dans le html */
+.l-bloc .icon-round,   aucune de c'est classe  n'existe pas dans le html
 .l-bloc .icon-square,
 .l-bloc .icon-rounded,
 .l-bloc .icon-semi-rounded-a,
@@ -226,12 +226,12 @@ a:hover {
     border-color: rgba(0, 0, 0, .7);
 }
 
-.d-bloc .panel .divider-h span, /*  aucune classe n'existe pas dans le html */
+.d-bloc .panel .divider-h span,  aucune classe n'existe pas dans le html
 .l-bloc .divider-h span {
     border-color: rgba(0, 0, 0, .1);
 }
 
-.d-bloc .panel .a-btn,  /*  aucune classe ou inclusion n'existe pas dans le html */
+.d-bloc .panel .a-btn,   aucune classe ou inclusion n'existe pas dans le html
 .l-bloc .a-btn,
 .l-bloc .navbar a,
 .l-bloc .navbar-brand,
@@ -250,7 +250,7 @@ a:hover {
 }
 
 .d-bloc .panel .a-btn:hover,
-.l-bloc .a-btn:hover, /*  aucune classe ou inclusion  n'existe pas dans le html */
+.l-bloc .a-btn:hover,  aucune classe ou inclusion  n'existe pas dans le html
 .l-bloc .navbar a:hover,
 .l-bloc .navbar-brand:hover,
 .l-bloc a:hover .icon-sm,
@@ -267,17 +267,17 @@ a:hover {
     color: rgba(0, 0, 0, 1);
 }
 
-.l-bloc .navbar-toggle .icon-bar { /*  vrai mais utile ? */
+.l-bloc .navbar-toggle .icon-bar {  vrai mais utile ?
     color: rgba(0, 0, 0, .6);
 }
 
-.d-bloc .panel .btn-wire,  /*  n'existe pas dans le html */
+.d-bloc .panel .btn-wire,   n'existe pas dans le html
 .d-bloc .panel .btn-wire:hover,
 .l-bloc .btn-wire,
 .l-bloc .btn-wire:hover {
     color: rgba(0, 0, 0, .7);
     border-color: rgba(0, 0, 0, .3);
-}
+} */
 
 .voffset {
     margin-top: 30px;
@@ -366,74 +366,35 @@ a:hover {
     width: 26px;
 }
 
-.nav-invert .navbar .nav {
+/* .nav-invert .navbar .nav {  n'existe pas dans le html
     float: left;
 }
 
-.nav-invert .navbar-header,
+.nav-invert .navbar-header,  n'existe pas dans le html
 .nav-invert .navbar-brand {
     float: right;
     position: relative;
     z-index: 2;
 }
 
-@media (min-width: 768px) {
-    .site-navigation {
-        position: absolute;
-        top: 50%;
-        right: 20px;
-        transform: translate(0, -50%);
-        -webkit-transform: translateY(-50%);
-    }
-    .nav > li .dropdown-menu a,  /*  n'existe pas dans le html */
-    .nav > li .dropdown-menu a:hover {
-        color: #484848;
-    }
-    .nav-invert .site-navigation { /*  n'existe pas dans le html */
-        left: 0;
-        right: 0;
-    }
-    .nav-center {  /*  n'existe pas dans le html */
-        text-align: center;
-    }
-    .nav-center .navbar-header {    /*  n'existe pas dans le html */
-        width: 100%;
-    }
-    .nav-center .navbar-header,  /*  n'existe pas dans le html */
-    .nav-center .navbar-brand,
-    .nav-center .nav > li {
-        float: none;
-        display: inline-block;
-    }
-    .nav-center .site-navigation { /*  n'existe pas dans le html */
-        position: relative;
-        width: 100%;
-        right: 0;
-        margin-right: 0px;
-        margin-top: 20px;
-    }
-    .nav-center.mini-nav .navbar-toggle { /*  n'existe pas dans le html */
-        float: none;
-        margin: 10px auto 0;
-    }
-}
 
-.nav > li > .dropdown a {  /*  n'existe pas dans le html */
+
+.nav > li > .dropdown a {   n'existe pas dans le html
     background: none!important;
     display: block;
     padding: 14px 15px;
 }
 
-nav .caret {  /*  n'existe pas dans le html */
+nav .caret {   n'existe pas dans le html
     margin: 0 5px;
 }
 
-.dropdown-menu .dropdown-menu { /*  n'existe pas dans le html */
+.dropdown-menu .dropdown-menu {  n'existe pas dans le html
     top: -8px;
     left: 100%;
 }
 
-.dropdown-menu .dropmenu-flow-right { /*  n'existe pas dans le html */
+.dropdown-menu .dropmenu-flow-right {  n'existe pas dans le html
     top: 100%;
     left: 0;
     margin-left: -1px;
@@ -441,14 +402,14 @@ nav .caret {  /*  n'existe pas dans le html */
     border-top-right-radius: 0;
 }
 
-.dropdown-menu .dropdown span {  /*  n'existe pas dans le html */
+.dropdown-menu .dropdown span {   n'existe pas dans le html
     border: 4px solid black;
     border-top-color: transparent;
     border-right-color: transparent;
     border-bottom-color: transparent;
     margin: 6px -5px 0 0!important;
     float: right;
-}
+} */
 
 .mg-md {
     margin-top: 10px;
@@ -498,32 +459,32 @@ button {
     font-size: 60px!important;
 }
 
-.sm-shadow {  /*  n'existe pas dans le html  MAIS  PEU ETRE UTILE */
+/* .sm-shadow {   n'existe pas dans le html  MAIS  PEU ETRE UTILE
     text-shadow: 0 1px 2px rgba(0, 0, 0, .3);
 }
 
-.panel-sq,     /*  n'existe pas dans le html */
+.panel-sq,      n'existe pas dans le html
 .panel-sq .panel-heading,
 .panel-sq .panel-footer {
     border-radius: 0;
 }
 
-.panel-rd {   /*  n'existe pas dans le html */
+.panel-rd {    n'existe pas dans le html
     border-radius: 30px;
 }
 
-.panel-rd .panel-heading {  /*  n'existe pas dans le html */
+.panel-rd .panel-heading {   n'existe pas dans le html
     border-radius: 29px 29px 0 0;
 }
 
-.panel-rd .panel-footer {  /*  n'existe pas dans le html */
+.panel-rd .panel-footer {   n'existe pas dans le html
     border-radius: 0 0 29px 29px;
 }
 
-.form-control {    /*  n'existe pas dans le html */
+.form-control {     n'existe pas dans le html
     border-color: rgba(0, 0, 0, .1);
     box-shadow: none;
-}
+} */
 
 .scrollToTop {
     width: 40px;
@@ -540,10 +501,10 @@ button {
     margin-top: 6px;
 }
 
-.showScrollTop {    /*  n'existe pas dans le html */
+/* .showScrollTop {     n'existe pas dans le html
     font-size: 14px;
     opacity: 1;
-}
+} */
 
 a[data-lightbox] {
     position: relative;
@@ -575,23 +536,23 @@ a[data-lightbox]:hover img {
     animation-fill-mode: none;
 }
 
-#lightbox-modal {   /*  n'existe pas dans le html */
+/* #lightbox-modal {    n'existe pas dans le html
     display: flex;
     align-items: center;
 }
 
-#lightbox-modal .modal-dialog { /*  n'existe pas dans le html */
+#lightbox-modal .modal-dialog {  n'existe pas dans le html
     width: 90%;
     max-width: 900px;
     margin: 0 auto 0;
 }
 
-#lightbox-modal .modal-dialog img { /*  n'existe pas dans le html */
+#lightbox-modal .modal-dialog img {  n'existe pas dans le html
     max-height: 90vh;
     margin: 0 auto;
 }
 
-.lightbox-caption {  /*  n'existe pas dans le html */
+.lightbox-caption {   n'existe pas dans le html
     padding: 20px;
     color: #FFF;
     background: rgba(0, 0, 0, .5);
@@ -601,7 +562,7 @@ a[data-lightbox]:hover img {
     bottom: 5px;
 }
 
-.close-lightbox {  /*  n'existe pas dans le html */
+.close-lightbox {   n'existe pas dans le html
     color: #FFF;
     font-size: 30px;
     position: absolute;
@@ -615,14 +576,14 @@ a[data-lightbox]:hover img {
     opacity: 0.3;
 }
 
-.close-lightbox:hover,  /*  n'existe pas dans le html */
+.close-lightbox:hover,   n'existe pas dans le html
 .next-lightbox:hover,
 .prev-lightbox:hover {
     opacity: 1.0;
     color: #FFF;
 }
 
-.next-lightbox,   /*  n'existe pas dans le html */
+.next-lightbox,    n'existe pas dans le html
 .prev-lightbox {
     font-size: 20px;
     color: rgba(255, 255, 255, .9);
@@ -634,15 +595,15 @@ a[data-lightbox]:hover img {
     opacity: 0.4;
 }
 
-.next-lightbox {  /*  n'existe pas dans le html */
+.next-lightbox {   n'existe pas dans le html
     padding: 6px 8px 1px 13px;
     right: 25px;
 }
 
-.prev-lightbox {   /*  n'existe pas dans le html */
+.prev-lightbox {    n'existe pas dans le html
     padding: 6px 13px 1px 10px;
     left: 25px;
-}
+} */
 
 .snapshot-lb .modal-body {
     padding-bottom: 45px;
@@ -681,7 +642,7 @@ a {
     font-size: 36px;
 }
 
-.statement-bloc-text {  /*  n'existe pas dans le html MAIS A UTILISE*/ 
+/* .statement-bloc-text {   n'existe pas dans le html MAIS A UTILISE   AAAAAAAAAAAAAAAAA
     line-height: 26px;
     font-style: italic;
     font-size: 20px;
@@ -689,7 +650,7 @@ a {
     font-weight: lighter;
     max-width: 520px;
     margin: auto auto auto auto;
-}
+} */
 
 p {
     font-size: 11px;
@@ -731,11 +692,11 @@ h3 {
     color: #333333!important;
 }
 
-.med-width-whitespace {  /*  n'existe pas dans le html  MAIS */
+/* .med-width-whitespace {   n'existe pas dans le html  MAIS AAAAAAAAA
     max-width: 800px;
     margin: auto auto auto auto;
     box-shadow: 0px 0px 0px #000000;
-}
+} */
 
 h1 {
     color: #333333!important;
@@ -803,21 +764,21 @@ h4 {
     color: #FFFFFF!important;
 }
 
-.ltc-white {     /*  n'existe pas dans le html */
+.ltc-white {      
     color: #FFFFFF!important;
 }
 
-.ltc-white:hover {  /*  n'existe pas dans le html */
+.ltc-white:hover {   
     color: #cccccc!important;
 }
 
-.ltc-atomic-tangerine {  /*  n'existe pas dans le html */
+/* .ltc-atomic-tangerine {   n'existe pas dans le html
     color: #F3976C!important;
 }
 
-.ltc-atomic-tangerine:hover { /*  n'existe pas dans le html */
+.ltc-atomic-tangerine:hover {  n'existe pas dans le html
     color: #c27956!important;
-}
+} */
 
 .icon-dark-slate-blue {   
     color: #364577!important;
@@ -840,39 +801,30 @@ h4 {
     background-image: url("img/image-de-presentation.bmp");
 }
 
-@media (max-width: 1024px) {
-    .bloc {
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-    .bloc.full-width-bloc,   /*  n'existe pas dans le html */
-    .bloc-tile-2.full-width-bloc .container,
-    .bloc-tile-3.full-width-bloc .container,
-    .bloc-tile-4.full-width-bloc .container {
-        padding-left: 0;
-        padding-right: 0;
-    }
-}
 
-@media (max-width: 992px) and (min-width: 768px) {
-    .navbar .nav {   /*  SUR LA MEME LIGNE MARCHE ? */
-        max-width: 80%
-    }
-    .nav-center.navbar .nav {  /*  n'existe pas dans le html */
-        max-width: 100%
-    }
-}
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
-    .b-parallax {
-        background-attachment: scroll;
-    }
-}
+/*#########################################*/
+/*########### MEDIA QUERIES ###############*/
+/*#########################################*/
 
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
     .b-parallax {
         background-attachment: scroll;
     }
+}
+
+@media (max-width: 1024px) {
+    .bloc {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    /* .bloc.full-width-bloc,    n'existe pas dans le html
+    .bloc-tile-2.full-width-bloc .container,
+    .bloc-tile-3.full-width-bloc .container,
+    .bloc-tile-4.full-width-bloc .container {
+        padding-left: 0;
+        padding-right: 0;
+    } */
 }
 
 @media (max-width: 991px) {
@@ -891,18 +843,62 @@ h4 {
         padding-left: constant(safe-area-inset-left);
         padding-right: constant(safe-area-inset-right);
     }
-    .bloc-group,  /*  n'existe pas dans le html */
+    /* .bloc-group,   n'existe pas dans le html
     .bloc-group .bloc {
         display: block;
         width: 100%;
     }
-    .bloc-fill-screen .fill-bloc-top-edge,  /*  n'existe pas dans le html */
+    .bloc-fill-screen .fill-bloc-top-edge,   n'existe pas dans le html
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
         padding-left: constant(safe-area-inset-left);
         padding-right: constant(safe-area-inset-right);
-    }
+    } */
 }
+
+@media (min-width: 768px) {
+    .site-navigation {
+        position: absolute;
+        top: 50%;
+        right: 20px;
+        transform: translate(0, -50%);
+        -webkit-transform: translateY(-50%);
+    }
+    /* .nav > li .dropdown-menu a,   n'existe pas dans le html
+    .nav > li .dropdown-menu a:hover {
+        color: #484848;
+    }
+    .nav-invert .site-navigation {  n'existe pas dans le html
+        left: 0;
+        right: 0;
+    }
+    .nav-center {   n'existe pas dans le html
+        text-align: center;
+    }
+    .nav-center .navbar-header {     n'existe pas dans le html
+        width: 100%;
+    }
+    .nav-center .navbar-header,   n'existe pas dans le html
+    .nav-center .navbar-brand,
+    .nav-center .nav > li {
+        float: none;
+        display: inline-block;
+    }
+    .nav-center .site-navigation {  n'existe pas dans le html
+        position: relative;
+        width: 100%;
+        right: 0;
+        margin-right: 0px;
+        margin-top: 20px;
+    }
+    .nav-center.mini-nav .navbar-toggle {  n'existe pas dans le html
+        float: none;
+        margin: 10px auto 0;
+    } */
+}
+/*######################################*/
+/*########## MOBILE ET MOINS ###########*/
+/*######################################*/
 
 @media (max-width: 767px) {
     .page-container {
@@ -949,14 +945,14 @@ h4 {
     .nav > li:hover {
         background: rgba(0, 0, 0, .08);
     }
-    .dropdown .dropdown a .caret {  /*  n'existe pas dans le html */
+    /* .dropdown .dropdown a .caret {   n'existe pas dans le html
         float: none;
         margin: 5px 0 0 10px!important;
         border: 4px solid black;
         border-bottom-color: transparent;
         border-right-color: transparent;
         border-left-color: transparent;
-    }
+    } */
     #hero-bloc .navbar .nav {  /*  SUR LA MEME LIGNE MARCHE ? */
         background: rgba(0, 0, 0, .8);
     }
@@ -980,14 +976,14 @@ h4 {
         max-height: 40px;
         width: auto;
     }
-    .nav-invert .navbar-header {   /*  n'existe pas dans le html */
+    /* .nav-invert .navbar-header {    n'existe pas dans le html
         float: none;
         width: 100%;
     }
-    .nav-invert .navbar-toggle { /*  n'existe pas dans le html */
+    .nav-invert .navbar-toggle {  n'existe pas dans le html
         float: left;
         margin-left: 10px;
-    }
+    } */
     .bloc {
         padding-left: 0;
         padding-right: 0;
@@ -1002,20 +998,20 @@ h4 {
         padding-left: 0;
         padding-right: 0;
     }
-    .bloc-tile-2 .container,  /*  n'existe pas dans le html */
+    /* .bloc-tile-2 .container,   n'existe pas dans le html
     .bloc-tile-3 .container,
     .bloc-tile-4 .container,
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding-left: 0;
         padding-right: 0;
-    }
-    .a-block {  /*  n'existe pas dans le html */
+    } */
+    /* .a-block {   n'existe pas dans le html
         padding: 0 10px;
-    }
-    .btn-dwn {  /*  n'existe pas dans le html */
+    } */
+    /* .btn-dwn {   n'existe pas dans le html
         display: none;
-    }
+    } */
     .voffset {  
         margin-top: 5px;
     }
@@ -1031,16 +1027,16 @@ h4 {
     .close-lightbox {  /*  n'existe pas dans le html */
         display: inline-block;
     }
-    .blocsapp-device-iphone5 {  /*  n'existe pas dans le html */
+    /* .blocsapp-device-iphone5 {   n'existe pas dans le html
         background-size: 216px 425px;
         padding-top: 60px;
         width: 216px;
         height: 425px;
-    }
-    .blocsapp-device-iphone5 img {/*  n'existe pas dans le html */
+    } */
+    /* .blocsapp-device-iphone5 img { n'existe pas dans le html
         width: 180px;
         height: 320px;
-    }
+    } */
 }
 
 @media (max-width: 400px) {
@@ -1050,8 +1046,30 @@ h4 {
     }
 }
 
-@media (max-width: 767px) {  /*  n'existe pas dans le html */
+/* @media (max-width: 767px) {   n'existe pas dans le html
     .bloc-mob-center-text {
         text-align: center;
     }
+} */
+
+/*####################################*/
+/*#####         TABLETTE      ########*/
+/*###################################*/
+
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+    .b-parallax {
+        background-attachment: scroll;
+    }
 }
+
+@media (min-width: 768px) and (max-width: 992px) {  /* max min changer d'ordre*/
+    .navbar .nav {   /*  SUR LA MEME LIGNE MARCHE ? */
+        max-width: 80%
+    }
+    .nav-center.navbar .nav {  /*  n'existe pas dans le html */
+        max-width: 100%
+    }
+}
+
+

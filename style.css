@@ -80,7 +80,9 @@ a:hover {
 /*#################################*/
 /*########### footer ##############*/
 /*#################################*/
-
+footer p{
+    font-size: 17px;
+}
 footer a{
     color: #FFF;
 }
@@ -93,6 +95,14 @@ footer a{
     color: rgba(255, 255, 255, 0.753)
 }
 
+/*#################################*/
+/*######### P2 bloc 7 #############*/
+/*#################################*/
+
+.b-border{
+    border: 1px solid black;
+    
+}
 
 /*#################################*/
 /*########### HEADER ##############*/
@@ -727,9 +737,6 @@ h4 {
     color: #FFFFFF!important;
 }
 
-.ltc-white:hover {   
-    color: #cccccc!important;
-}
 
  .ltc-atomic-tangerine {   
     color: #F3976C!important;

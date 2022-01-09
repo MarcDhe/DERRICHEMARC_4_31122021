@@ -6,9 +6,6 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
-  :focus {
-    border: 2px solid red;
-  }
   a,
   button {
     transition: all 0.3s ease-in-out;

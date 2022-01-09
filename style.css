@@ -26,6 +26,75 @@ a:hover {
     cursor: pointer;
 }
 /*#################################*/
+/*########### bloc 2 ##############*/
+/*#################################*/
+
+.statement-bloc-text {  /* ajout de la classe dans le html pour la citation*/ 
+    line-height: 26px;
+    font-style: italic;
+    font-size: 20px;
+    text-align: center;
+    font-weight: lighter;
+    max-width: 520px;
+    margin: auto auto auto auto;
+}
+
+.auteur{  /* pour l'auteur de la citation */ 
+    font-size: 14px;
+}
+
+
+/*#################################*/
+/*########### bloc 4 ##############*/
+/*#################################*/
+
+
+.frame-cover{  /* pour couvrir l'intégralité du carde en mobile */
+    height: 100%;
+    width: 100%;
+   
+}
+
+/*#################################*/
+/*########### bloc 5 ##############*/
+/*#################################*/
+
+
+.brightness{
+    filter: brightness(1.8);
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    filter: brightness(0.55);
+    
+}
+
+.black-block{
+    background-color: rgba(19, 19, 19, 0.7);
+    padding: 40px;
+    width: 600px;
+    
+}
+/*#################################*/
+/*########### footer ##############*/
+/*#################################*/
+
+footer a{
+    color: #FFF;
+}
+
+.social{
+    color: #FFF;
+}
+
+.social:hover{
+    color: rgba(255, 255, 255, 0.753)
+}
+
+
+/*#################################*/
 /*########### HEADER ##############*/
 /*#################################*/
 
@@ -150,7 +219,7 @@ header a{
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: rgba(255, 255, 255, 1);
 }
 
 .d-bloc .a-btn:hover,   /* beaucoup de chose mais une seul utile*/
@@ -167,7 +236,8 @@ header a{
 .d-bloc h5 a:hover,
 .d-bloc h6 a:hover,
 .d-bloc p a:hover {
-    color: rgba(255, 255, 255, 1);
+    
+    color: rgba(255, 255, 255, .6);
 } 
 
 /* .d-bloc .navbar-toggle .icon-bar {   inclusion n'existe pas dans le html
@@ -536,15 +606,8 @@ label,
     font-size: 36px;
 }
 
-/* .statement-bloc-text {   n'existe pas dans le html MAIS A UTILISE   AAAAAAAAAAAAAAAAA
-    line-height: 26px;
-    font-style: italic;
-    font-size: 20px;
-    text-align: center;
-    font-weight: lighter;
-    max-width: 520px;
-    margin: auto auto auto auto;
-} */
+
+
 
 p {
     font-size: 11px;
@@ -636,19 +699,21 @@ h4 {
     background-color: #FFFFFF;
 }
 
+
+
 .bgc-dark-slate-blue {
     background-color: #364577;
 }
 
-.bgc-atomic-tangerine {
-    background-color: #F3976C;
+.bgc-atomic-tangerine { /* changement couleur fond */
+    background-color: #f58c35;
 }
 
 .tc-white {      /* Changement couleur text */
     color: #f58c35!important;
 }
 
-.btn-atomic-tangerine {
+.btn-atomic-tangerine { /* changement couleur fond */
     background: #f58c35;
     color: #FFFFFF!important;
 }

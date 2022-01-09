@@ -25,10 +25,15 @@
 
     
 <!-- Analytics -->
-<!-- Dans la plupart des cas, vous n'avez besoin que d'un seul flux Web pour vos mesures. 
-	Si vous en utilisez plusieurs pour mesurer des pages ou des sites différents dans 
-	le parcours d'un même utilisateur, vous risquez d'obtenir des résultats incohérent 
-ref : google analytics-->
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-H01LZJ0F3D"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-H01LZJ0F3D');
+</script>
 <!-- Analytics END -->
     
 </head>
@@ -71,10 +76,10 @@ ref : google analytics-->
 			<div class="container bloc-lg">
 				<div class="row">
 					<div class="col-sm-12">
-						<h1 class="text-center hero-bloc-text tc-white">
+						<h1 class="text-center hero-bloc-text ltc-white"><!-- remplacement tc-wight par ltc-white-->
 							Parlons web design !
 						</h1>
-						<p class="text-center mg-lg tc-white tight-width-whitespace">
+						<p class="text-center mg-lg ltc-white tight-width-whitespace"> <!-- remplacement tc-wight par ltc-white-->
 							Nous sommes ravis que vous souhaitiez collaborer avec notre agence.<br>
 							Parlez-nous de votre projet en complétant le formulaire ci-dessous.
 						</p>

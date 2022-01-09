@@ -85,10 +85,13 @@ footer p{
 }
 footer a{
     color: #FFF;
+    
 }
 
 .social{
     color: #FFF;
+    width: auto;
+    height: auto;
 }
 
 .social:hover{

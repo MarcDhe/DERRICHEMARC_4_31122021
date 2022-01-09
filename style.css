@@ -99,9 +99,8 @@ footer a{
 /*######### P2 bloc 7 #############*/
 /*#################################*/
 
-.b-border{
-    border: 1px solid black;
-    
+.t-black{
+    color: black;
 }
 
 /*#################################*/
@@ -725,7 +724,7 @@ h4 {
 
 .btn-atomic-tangerine { /* changement couleur fond */
     background: #f58c35;
-    color: #FFFFFF!important;
+    color: black!important;
 }
 
 .btn-atomic-tangerine:hover {

@@ -62,7 +62,7 @@ body {
   .t-black {
     color: #000;
   }
-  .normal-font{
+  #normal-font{
     text-transform: none;
     font-weight: normal;
     font-size: 13px;

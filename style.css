@@ -470,6 +470,7 @@ body {
     line-height: 30px;
     padding: 0 9px 5px;
     opacity: 0.3;
+    color: rgba(255, 255, 255, 0.9); /* mise en blanc pour mieu faire resortir le bouton */
   }
   .close-lightbox:hover,
   .next-lightbox:hover,
@@ -480,7 +481,7 @@ body {
   .next-lightbox,
   .prev-lightbox {
     font-size: 20px;
-    color: rgba(255, 255, 255, 0.9);
+    color: rgba(255, 255, 255, 0.9); /* mise en blanc pour mieu faire resortir le bouton */
     background: rgba(0, 0, 0, 0.5);
     transition: all 0.2s ease-in-out;
     position: absolute;

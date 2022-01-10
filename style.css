@@ -34,6 +34,9 @@ body {
   .brightness {
     filter: brightness(1.8);
   }
+  .no-brightness{
+    filter: brightness(0.55);
+  }
   .flex {
     display: flex;
     align-items: center;
@@ -369,13 +372,13 @@ body {
     background-color: #364577;
   }
   .bgc-atomic-tangerine {
-    background-color: #f58c35;
+    background-color: #ff7300fd;
   }
   .tc-white {
-    color: #f58c35 !important;
+    color: #ff7300fd !important;
   }
   .btn-atomic-tangerine {
-    background: #f58c35;
+    background: #ff7300fd;
     color: #000 !important;
   }
   .btn-atomic-tangerine:hover {

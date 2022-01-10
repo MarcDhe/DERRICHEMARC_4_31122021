@@ -79,7 +79,7 @@
 						<h1 class="text-center hero-bloc-text ltc-white"><!-- remplacement tc-wight par ltc-white-->
 							Parlons web design !
 						</h1>
-						<p class="text-center mg-lg ltc-white tight-width-whitespace"> <!-- remplacement tc-wight par ltc-white-->
+						<p class="text-center mg-lg ltc-white tight-width-whitespace small-font"> <!-- remplacement tc-wight par ltc-white-->
 							Nous sommes ravis que vous souhaitiez collaborer avec notre agence.<br>
 							Parlez-nous de votre projet en complétant le formulaire ci-dessous.
 						</p>
@@ -96,12 +96,12 @@
 			<div class="container bloc-lg">
 				<div class="row">
 					<div class="col-sm-8"><!-- changement taille-->
-						<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
+						<form id="form_1" novalidate> <!-- success-msg failed-msg delete doit se faire en JS--> <!-- novalidate keep ?-->
 							<div class="form-group">
 								<label for="name">  <!-- etiquette ok-->
 									Nom
 								</label>
-								<input id="name" class="form-control" required /> <!-- rajoute type="text"--> <!-- required == aira-required="true" -->
+								<input id="name" class="form-control" required />  <!-- required == aira-required="true" -->
 							</div>
 							<div class="form-group">
 								<label for="email">
@@ -118,7 +118,7 @@
 							<div class="form-group">
 								<label for="message">
 									Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
-								</label><textarea id="message" type="text" class="form-control" rows="4" cols="50" required></textarea> <!-- rajoute type="text"-->
+								</label><textarea id="message"  class="form-control" rows="4" cols="50" required></textarea> <!-- rajoute type="text"-->
 							</div> 
 							<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine t-black" type="submit">
 								Envoyer		<!-- aria sur btn ?-->
@@ -126,9 +126,9 @@
 						</form>
 					</div>
 					<div class="col-sm-12 voffset"> <!-- changement sm-6 a 12 + ajout voffset margin-top-->
-						<p> <!-- emplaement pas fou-->
+						<h3 class="normal-font"> 
 							contact@lachouetteagence.com<br>2 place Sathonay 69001 Lyon<br>Ouvert de 9h à 18h, du lundi au vendredi<br>
-						</p>
+						</h3>
 					</div>
 				</div>
 			</div>

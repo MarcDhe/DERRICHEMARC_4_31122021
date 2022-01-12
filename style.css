@@ -307,7 +307,7 @@ body {
   p {
     font-family: helvetica;
     font-weight: 400;
-    color: #575757 !important;
+    color: #575757 ;
   }
   .container {
     max-width: 1000px;
@@ -349,7 +349,7 @@ body {
     color: #333 !important;
   }
   h1 {
-    color: #333 !important;
+    color: #333 ;
   }
   h4 {
     color: #333 !important;

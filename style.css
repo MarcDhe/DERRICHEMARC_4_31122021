@@ -22,7 +22,9 @@ body {
   .black-background .ltc-white:hover{
     color: #f3976c;
   }
-
+  .c-white{
+    color: #fff !important;
+  }
   .statement-bloc-text {
     line-height: 26px;
     font-style: italic;
@@ -517,7 +519,7 @@ body {
     color: rgba(0, 0, 0, 0.5);
     background: 0 0;
   }
-  @media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) { /* max-device-with device remove */
+  @media  (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) { /* max-device-with device remove */
     .b-parallax {
       background-attachment: scroll;
     }
@@ -652,7 +654,7 @@ body {
       padding-right: 0;
     }
   }
-  @media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) { /* min-device-witdh, device remove*/
+  @media  (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) { /* min-device-witdh, device remove*/
     .b-parallax {
       background-attachment: scroll;
     }

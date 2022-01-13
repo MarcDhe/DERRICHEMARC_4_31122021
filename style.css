@@ -529,7 +529,11 @@ body {
       padding-left: 20px;
       padding-right: 20px;
     }
+    body{
+      max-width: 1024px;
+    }
   }
+
   @media (max-width: 991px) {
     .container {
       width: 100%;
